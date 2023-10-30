@@ -3,9 +3,9 @@ import React from 'react'
 
 const Navbar = () => {
   return (
-    <div>
-        <ul className='py-2 border-t border-gray-300'>
-            <li className='space-x-6 text-xs'>
+    <div className='flex justify-between flex-wrap'>
+        <ul className='py-2  border-t border-gray-300'>
+            <li className='space-x-6  text-xs'>
                 <Link href="/world">World</Link>
                 <Link href="/business">Business</Link>
                 <Link href="/science">Science</Link>
